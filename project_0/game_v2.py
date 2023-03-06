@@ -1,50 +1,47 @@
-"""Игра угадай число
-Компьютер сам загадывает и сам угадывает число
+""" Guess the Number Game v2
+    Computer VS computer
 """
 
 import numpy as np
 
 
-def random_predict(number: int = 1) -> int:
-    """Рандомно угадываем число
-
+def random_predict(number:int=np.random.randint(1, 101)) -> int:
+    """Guessing the number and counting attempts
+    
     Args:
-        number (int, optional): Загаданное число. Defaults to 1.
-
+        number (int, optional): Predict number. 
+        Defaults is random generated number 1-100.
     Returns:
-        int: Число попыток
-    """
+        int: Count of attempt(s)
+    """    
     count = 0
-
+    lst_num = list(range(101)) # Generating list 0-100
+    
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101)  # предполагаемое число
-        if number == predict_number:
-            break  # выход из цикла если угадали
+        predict_number = int(np.mean(lst_num)) # Select mean number, loop1=50
+        half = round(len(lst_num)/2) # Find index of the middle of list
+        if predict_number == number: break
+        elif predict_number < number:
+            lst_num = lst_num[half:]    # Cut off the list, loop1=[50:100]
+        lst_num = lst_num[:half]        # Cut off the list, loop1=[0:49]
+        
     return count
 
 
-def score_game(random_predict) -> int:
-    """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
-
+def score(random_predict) -> int:
+    """Runs main function 1000 times
     Args:
-        random_predict ([type]): функция угадывания
-
+        random_predict (_type_): Main function
     Returns:
-        int: среднее количество попыток
-    """
-    count_ls = []
-    #np.random.seed(1)  # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
-
-    for number in random_array:
-        count_ls.append(random_predict(number))
-
-    score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
-    return score
+        int: Minimun count of attempts after 1000 times
+    """    
+    counter_ls = []
+    for i in range(1000): # Run main function 1000 times
+        counter_ls.append(random_predict())
+    result = int(np.mean(counter_ls)) # Calculate mean
+    
+    return result
 
 
-if __name__ == "__main__":
-    # RUN
-    score_game(random_predict)
+print(f'The minimum count of attempts, during 1000 times, is {score(random_predict)}')
