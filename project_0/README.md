@@ -1,11 +1,11 @@
 # Проект угадай число 
 
 ## Оглавление
-[1. Описание проекта](https://github.com/thetitorenko/sf_data_science/tree/main/project_0/README.md#Описание-проекта)  
-[2. Какой кейс решаем](https://github.com/thetitorenko/sf_data_science/tree/main/project_0/README.md#Какой-кейс-решаем)  
-[3. Этапы работы над проектом](https://github.com/thetitorenko/sf_data_science/tree/main/project_0/README.md#Этапы-работы-над-проектом)  
-[4. Результаты](https://github.com/thetitorenko/sf_data_science/tree/main/project_0/README.md#Результаты)  
-[5. Выводы](https://github.com/thetitorenko/sf_data_science/tree/main/project_0/README.md#Выводы)
+[1. Описание проекта](https://github.com/velhoum/sf_data_science/blob/main/project_0/README.md#Описание-проекта)  
+[2. Какой кейс решаем](https://github.com/velhoum/sf_data_science/blob/main/project_0/README.md#Какой-кейс-решаем)  
+[3. Этапы работы над проектом](https://github.com/velhoum/sf_data_science/blob/main/project_0/README.md#Этапы-работы-над-проектом)  
+[4. Результаты](https://github.com/velhoum/sf_data_science/blob/main/project_0/README.md#Результаты)  
+[5. Выводы](https://github.com/velhoum/sf_data_science/blob/main/project_0/README.md#Выводы)
 
 ### Описание проекта
 Угадать загаданное компьютером число за минимальное число попыток.
@@ -36,4 +36,4 @@
 ### Выводы:
 - Эффективность алгоритма достаточна высока
 
-:arrow_up:[к оглавлению](https://github.com/thetitorenko/sf_data_science/tree/main/project_0/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/velhoum/sf_data_science/blob/main/project_0/README.md#Оглавление)
