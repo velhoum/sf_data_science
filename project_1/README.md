@@ -1,18 +1,18 @@
 # Проект 1. Анализ резюме из HeadHunter
 
 ## Оглавление  
-[1. Описание проекта](.README.md#Описание-проекта)  
-[2. Какой кейс решаем?](.README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
-[5. Результат](.README.md#Результат)    
-[6. Выводы](.README.md#Выводы) 
+[1. Описание проекта](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Этапы-работы-над-проектом)  
+[5. Результат](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Результат)    
+[6. Выводы](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Выводы) 
 
 ### Описание проекта    
 В нашем распоряжении база резюме, выгруженная с сайта поиска вакансий hh.ru. 
 Файл с исходными данными можно скачать [здесь](https://drive.google.com/file/d/10EU8YFvOgHy0y58RUHHWqU1kFgLOJ6cQ/view?usp=share_link).
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Оглавление)
 
 
 ### Какой кейс решаем?    
@@ -27,7 +27,7 @@
 ### Краткая информация о данных
 Датасет предстлвляет собой csv-файл с информацией из резюме соискателей в форме таблицы.
   
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Оглавление)
 
 
 ### Этапы работы над проектом  
@@ -36,13 +36,13 @@
 3. Разведывательный анализ;
 4. Очистка данных.
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Оглавление)
 
 
 ### Результаты:  
 В результате был получен датасет, пригодные для последующего построения модели, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе.
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Оглавление)
 
 
 ### Выводы:  
@@ -51,7 +51,7 @@
 - Практиковали работу с IDE;
 - Практиковали работу с GitHub.
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/velhoum/sf_data_science/tree/main/project_1/README.md#Оглавление)
 
 
 Если информация по данному проекту оказалась Вам интересна и/или полезна, то я буду  Вам очень признателен за оценку репозитория и профиля ⭐️Star!
